@@ -5,7 +5,7 @@
             |
             <router-link to="/about">About</router-link>
             |
-            <router-link to="/study">Listening</router-link>
+            <router-link to="/listening">Listening</router-link>
         </div>
         <transition name="fade" mode="out-in">
             <router-view/>

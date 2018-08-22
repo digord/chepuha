@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Study from './views/Study.vue'
+import Trainer from './views/Trainer.vue'
 
 
 Vue.use(Router)
@@ -22,9 +22,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/study',
-      name: 'study',
-      component: Study
+      path: '/listening',
+      name: 'listening',
+      component: Trainer
     }
   ]
 })
